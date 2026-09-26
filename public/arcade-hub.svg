@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="arcadeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c3aed" />
+      <stop offset="100%" stop-color="#6d28d9" />
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="26" fill="url(#arcadeGrad)" />
+  <!-- Gamepad icon -->
+  <path fill="#ffffff" d="M78 36H30a18 18 0 0 0-18 18c0 7.9 5.1 14.6 12.3 17l6.8-6.8c.7-.7 1.6-1.2 2.6-1.2H74.3c1 0 1.9.5 2.6 1.2l6.8 6.8c7.2-2.4 12.3-9.1 12.3-17a18 18 0 0 0-18-18zm-40 22h-4v4a2 2 0 1 1-4 0v-4h-4a2 2 0 1 1 0-4h4v-4a2 2 0 1 1 4 0v4h4a2 2 0 1 1 0 4zm28-6a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm8 8a3 3 0 1 1 0-6 3 3 0 0 1 0 6z" />
+</svg>

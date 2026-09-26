@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" width="108" height="108">
+  <defs>
+    <linearGradient id="toolGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="26" fill="url(#toolGrad)" />
+  <!-- Compass / Qibla / Tool Icon -->
+  <circle cx="54" cy="54" r="28" fill="none" stroke="#ffffff" stroke-width="4" />
+  <polygon points="54,34 60,54 54,48 48,54" fill="#fbbf24" />
+  <polygon points="54,74 60,54 54,60 48,54" fill="#ffffff" />
+  <circle cx="54" cy="54" r="3" fill="#1e293b" />
+</svg>
