@@ -23,6 +23,7 @@ export const androidApps: Project[] = [
     tech: ["Kotlin", "Android SDK", "Digest Auth", "Retrofit", "Coroutines", "MVVM"],
     githubUrl: "https://github.com/tanim494/NetisLink",
     downloadUrl: "/NetisLink.apk",
+    logo: "/netis-router.svg",
     badge: "Android Utility",
     category: "Android App",
   },
