@@ -34,8 +34,21 @@ export const androidApps: Project[] = [
       "A comprehensive educational hub designed for International Islamic University Chittagong students. Currently maintaining v3.5 and actively serving 500+ users with real-time bus tracking, automated campus notice feeds, semester-wise syllabus access, and community chat with Firebase backends.",
     tech: ["Java", "Android SDK", "Firebase Auth", "Firestore", "Cloud Messaging", "Material 3"],
     logo: "/iiuc-pedia.png",
+    downloadUrl: "https://iiuc-pedia.vercel.app/",
     githubUrl: "https://github.com/tanim494/IIUC-Pedia",
     badge: "500+ Active Users",
+    category: "Android App",
+  },
+  {
+    title: "Tool Bank",
+    description:
+      "Daily utility Android app featuring a magnetic sensors digital compass, accurate Salat prayer times, and offline utilities.",
+    longDescription:
+      "A multi-utility application designed for daily needs. Features digital magnetic sensors compass for Qibla direction, dynamic Salat prayer time calculation based on geolocation, and offline calculators. Designed for smooth, battery-efficient operation across Android devices.",
+    tech: ["Java", "Android SDK", "Sensors API", "Location Services", "Material Design"],
+    logo: "/tool-bank.svg",
+    githubUrl: "https://github.com/tanim494/Tool-Bank",
+    badge: "Open Source",
     category: "Android App",
   },
 ];
