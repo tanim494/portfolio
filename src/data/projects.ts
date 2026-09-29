@@ -22,7 +22,7 @@ export const androidApps: Project[] = [
       "An Android app engineered to discover and control Netis routers over the local network. Implements RFC-compliant Digest authentication against the router's CGI interface, provides real-time connected client discovery, Wi-Fi password management, bandwidth monitoring, and one-tap network reboot utilities. Built with Kotlin and modern coroutines for smooth asynchronous network calls.",
     tech: ["Kotlin", "Android SDK", "Digest Auth", "Retrofit", "Coroutines", "MVVM"],
     githubUrl: "https://github.com/tanim494/NetisLink",
-    downloadUrl: "/NetisRouterApp.apk",
+    downloadUrl: "/NetisLink v1.0.apk",
     badge: "Android Utility",
     category: "Android App",
   },
