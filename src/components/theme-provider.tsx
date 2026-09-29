@@ -13,10 +13,8 @@ const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const [theme, setTheme] = useState<Theme>("light");
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     const saved = localStorage.getItem("theme") as Theme | null;
     const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
     const initial = saved ?? (prefersDark ? "dark" : "light");
@@ -53,10 +51,10 @@ export function ThemeToggle({ className }: { className?: string }) {
       aria-label="Toggle dark mode"
       className={cn(
         "relative flex h-8 w-8 items-center justify-center rounded-lg border",
-        "border-zinc-200/80 bg-zinc-50 text-zinc-600 transition-colors",
-        "hover:border-zinc-300 hover:bg-zinc-100 hover:text-zinc-950",
-        "dark:border-zinc-800 dark:bg-zinc-900/60 dark:text-zinc-400",
-        "dark:hover:border-zinc-700 dark:hover:bg-zinc-800 dark:hover:text-zinc-100",
+        "border-zinc-200 bg-white text-zinc-600 transition-colors",
+        "hover:border-zinc-300 hover:bg-zinc-100 hover:text-zinc-900",
+        "dark:border-zinc-700 dark:bg-zinc-900 dark:text-zinc-200",
+        "dark:hover:border-zinc-600 dark:hover:bg-zinc-800 dark:hover:text-white",
         "focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-zinc-500",
         className,
       )}

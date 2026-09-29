@@ -129,7 +129,7 @@ export function Navigation() {
 
       {/* Mobile Drawer Dropdown */}
       {mobileMenuOpen && (
-        <div className="sm:hidden border-t border-zinc-200/80 bg-white/95 px-6 py-4 shadow-lg backdrop-blur-xl dark:border-zinc-800/80 dark:bg-zinc-950/95 transition-all">
+        <div className="sm:hidden border-t border-zinc-200/80 bg-white px-6 py-4 shadow-lg dark:border-zinc-800 dark:bg-zinc-950 transition-all">
           <nav className="flex flex-col space-y-1" aria-label="Mobile Navigation">
             {navLinks.map(({ href, label }) => {
               const id = href.replace("#", "");
@@ -142,8 +142,8 @@ export function Navigation() {
                   className={cn(
                     "flex items-center justify-between rounded-xl px-3.5 py-2.5 text-sm font-medium transition-colors",
                     isActive
-                      ? "bg-zinc-100 font-semibold text-zinc-950 dark:bg-zinc-850 dark:text-zinc-50"
-                      : "text-zinc-600 hover:bg-zinc-50 hover:text-zinc-950 dark:text-zinc-400 dark:hover:bg-zinc-900 dark:hover:text-zinc-100",
+                      ? "bg-zinc-100 font-semibold text-zinc-900 dark:bg-zinc-800 dark:text-zinc-100"
+                      : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-300 dark:hover:bg-zinc-900/80 dark:hover:text-zinc-100",
                   )}
                 >
                   <span>{label}</span>
